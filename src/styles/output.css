@@ -1019,6 +1019,12 @@
   .m-4 {
     margin: calc(var(--spacing) * 4);
   }
+  .mx-7 {
+    margin-inline: calc(var(--spacing) * 7);
+  }
+  .mx-10 {
+    margin-inline: calc(var(--spacing) * 10);
+  }
   .mx-auto {
     margin-inline: auto;
   }
