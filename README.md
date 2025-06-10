@@ -38,18 +38,16 @@ Para visualizar ou modificar o projeto em sua máquina local, siga os passos aba
     cd seu-repositorio
     ```
 
-3.  **Instale as dependências do Node.js (se aplicável):**
-    Se você estiver usando um `package.json` para gerenciar as dependências do Tailwind CSS.
+3.  **Instale as dependências do Node.js:**
     ```bash
     npm install
     ```
 
-4.  **Compile os assets do Tailwind CSS (se aplicável):**
+4.  **Compile os assets do Tailwind CSS:**
     Execute o script de compilação para gerar o arquivo CSS final.
     ```bash
-    npm run build
+    npm run dev
     ```
-    *Nota: O comando pode variar dependendo da configuração do seu arquivo `package.json`.*
 
 5.  **Abra o arquivo `index.html` no seu navegador:**
     Você pode simplesmente arrastar o arquivo para a janela do seu navegador ou usar uma extensão como o "Live Server" no VSCode para uma melhor experiência de desenvolvimento.
